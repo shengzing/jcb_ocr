@@ -1,0 +1,14 @@
+# Streamlit OCR App Requirements
+
+# Core dependencies
+streamlit>=1.28.0
+pillow>=10.0.0
+PyMuPDF>=1.23.0  # fitz for PDF processing
+python-dotenv>=1.0.0  # .env file support
+
+# Visualization
+pandas>=2.0.0
+
+# Already installed from main project
+# loguru
+# transformers (if using local models)
