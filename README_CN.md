@@ -6,6 +6,12 @@
 
 JCB-OCR 是一个面向文档理解的交互式平台，支持在同一工作流中混合不同的布局识别模型与内容识别模型。系统基于 Streamlit 构建，配套的 `local_vl_utils` 模块提供多家 VLM 服务的统一客户端、提示模板与后处理组件，便于在本地或远程环境中快速完成文档解析任务。
 
+<p align="center">
+  <a href="README.md"><img src="https://img.shields.io/badge/Docs-英文指南-blue.svg?style=flat"></a>
+  <a href="https://streamlit.io"><img src="https://img.shields.io/badge/Streamlit-1.x-brightgreen.svg?style=flat"></a>
+  <a href="https://www.python.org/downloads/release/python-3100/"><img src="https://img.shields.io/badge/Python-3.10+-yellow.svg?style=flat"></a>
+</p>
+
 ## 项目背景
 - **多模型融合的现实需求**：单一 OCR 模型难以同时完成复杂布局、表格/公式和高精度内容识别，本项目提供一套灵活的架构，将不同能力的模型通过统一接口组合起来，形成可拓展的协同方案。
 - **便捷的验证与对比体验**：内置交互式测试与对比面板，可在同一数据集上快速切换配置、查看日志并保存多轮结果，显著缩短业务验证周期。

@@ -6,6 +6,13 @@
 
 JCB-OCR is an interactive document-understanding platform that mixes layout-recognition and content-recognition models within a single workflow. Built with Streamlit, it ships with the `local_vl_utils` toolkit—unified clients, prompt templates, and post-processing helpers for multiple VLM providers—so you can run hybrid OCR pipelines locally or against remote APIs with minimal effort.
 
+
+<p align="center">
+  <a href="README_CN.md"><img src="https://img.shields.io/badge/Docs-中文指南-blue.svg?style=flat"></a>
+  <a href="https://streamlit.io"><img src="https://img.shields.io/badge/Streamlit-1.x-brightgreen.svg?style=flat"></a>
+  <a href="https://www.python.org/downloads/release/python-3100/"><img src="https://img.shields.io/badge/Python-3.10+-yellow.svg?style=flat"></a>
+</p>
+
 ## Project Background
 - **Hybrid necessity**: A single OCR model rarely excels at layout analysis, table/formula understanding, and high-quality text extraction simultaneously. JCB-OCR offers an extensible architecture that stitches different capabilities together through a consistent interface.
 - **Rapid validation & comparison**: Interactive test/comparison panels let you switch configurations, observe logs, and save multiple runs without leaving the UI, dramatically shortening verification cycles.
